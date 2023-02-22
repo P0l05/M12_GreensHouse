@@ -1,0 +1,19 @@
+header{
+    background-color: black;
+    padding: 2em;
+}
+
+footer{
+    background-color: black;
+}
+
+
+.contacte{
+    border: 1em;
+    margin: 0.5em;
+    background-color: white;
+}
+
+.nav{
+    color: white;
+}

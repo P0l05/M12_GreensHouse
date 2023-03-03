@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+*{
+    font: sans-serif;
+    text-align: justify;
+}
+
+header{
+    margin:0;
+    padding:0;
+    background-color: black;
+    padding: 2em;
+}
+
+footer{
+    margin:0;
+    padding:0;
+    padding-top: 1em;
+    background-color: black;
+}
+
+h3{
+    text-decoration: none;
+    color: white;
+    font: large sans-serif;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.nav{
+    text-decoration: none;
+    color: white;
+    font: medium sans-serif;
+    margin: 0.75em;
+    margin-top: 0em;
+}
+
+.bottomnav{
+    text-decoration: none;
+    color: white;
+    font: medium sans-serif;
+    margin: 1em;
+    margin-top: 0em;
+}
+
+#Titol{
+    color: white;
+    font: medium sans-serif;
+    margin: 0;
+    margin-left: 0.25em;
+    margin-right: 45em;
+}
+
+#Contacte{
+    text-decoration:none;
+    color:#000000;
+    padding-top:2px;
+    padding-bottom:4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color:#ffffff;
+    border-color: #a39c9c;
+    border-width: 2px;
+    border-style: solid;
+    border-radius:5px;
+    margin-right: 5em;
+    margin-right: 0.25em;
+}
+
+#FotoLogo{
+    margin-left: 2.5em;
+}

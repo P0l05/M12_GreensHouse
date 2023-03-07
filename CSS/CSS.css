@@ -43,21 +43,37 @@ h3{
 #Contacte{
     text-decoration:none;
     color:#000000;
-    padding-top:2px;
-    padding-bottom:4px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-top:0.125em;
+    padding-bottom:0.25em;
+    padding-left:0.25em;
+    padding-right: 0.25em;
     background-color:#ffffff;
     border-color: #a39c9c;
-    border-width: 2px;
+    border-width: 0.25em;
     border-style: solid;
-    border-radius:5px;
+    border-radius:0.313em;
     margin-right: 5em;
     margin-right: 0.25em;
 }
 
-#FotoLogo{
-    margin-left: 2.5em;
+main{
+    margin: 0em;
+    margin-top: 5em;
+    padding: 2em;
+}
+
+#fotoindex{
+    margin: 0;
+    float: left;
+    width: 50%;
+
+}
+
+#textindex{
+    margin: 0;
+    margin-top: 10em;
+    float: right;
+    width: 50%;
 }
 
 footer{

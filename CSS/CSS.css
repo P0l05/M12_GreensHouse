@@ -6,11 +6,11 @@ body{
 *{
     font: sans-serif;
     text-align: justify;
+    box-sizing: border-box;
 }
 
 header{
     margin:0;
-    padding:0;
     background-color: black;
     padding: 2em;
 }
@@ -59,27 +59,35 @@ h3{
 
 main{
     margin: 0em;
-    margin-top: 5em;
+    margin-top: 0em;
     padding: 2em;
 }
 
 #fotoindex{
-    margin: 0;
+    margin: 0em;
     float: left;
     width: 50%;
 
 }
 
 #textindex{
-    margin: 0;
+    margin: 0em;
     margin-top: 10em;
-    float: right;
+    float: left;
     width: 50%;
 }
 
 footer{
-    margin:0;
-    padding:0;
+    bottom: 0em;
+    max-height: 10em;
     padding-top: 1em;
     background-color: black;
+    position: absolute;
+    width: 100%;
+    position: fixed;
+}
+
+.container
+{
+    display: block;
 }

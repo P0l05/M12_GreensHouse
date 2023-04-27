@@ -57,3 +57,7 @@ header div#links ul li#contacte a{
 header div#links ul li#contacte a:hover{
     color: blue;
 }
+
+main{
+    height: 100%;
+}

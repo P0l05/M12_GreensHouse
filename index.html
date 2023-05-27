@@ -1,40 +1,92 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="cat">
-  <head>
-    <title>Green's House</title>
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="./CSS/CSS.css" rel="stylesheet">
-  </head>
-  <body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/css.css" rel="stylesheet">
+    <title>Green's House</title>
+    <link rel="icon" href="./Img/Logo ok sense fons.png">
+</head>
+<body>
     <header>
-      <div id="title"><h1>Green's House</h1></div>
-      <div id="links">
-        <ul>
-          <li><a href="#">Qui som</a></li>
-          <li><a href="#">Serveis</a></li>
-          <li id="contacte"><a href="#">Contacte</a></li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <div id="test"><p>Text</p></div>
-    </main>
-    <footer>
-      <div>
-        <h2>Recursos</h2>
-        <ul>
-          <li><a href="#">Qui Som</a></li>
-          <li><a href="#">Serveis</a></li>
-          <li><a href="#">Contacte</a></li>
-        </ul>
-      </div>
-      <div>
-        <div><p>© 2023 Green's House</p></div>
-        <div>
-          <img src="./Img/instagram.png" alt="Logo Instagram">
-          <img src="./Img/twitter.png" alt="Logo Twitter">
+      <div id="top">
+        <div id="logo">
+          <a href="./index.html">
+            <img src="./Img/Green's House.png" alt="Logo Green's House">
+          </a>
         </div>
+        <div id="topspace">
+        </div>
+        <div id="toplinks">
+          <!-- <a href="aqui faltaria link a la web de contacte"> -->
+            <button id="whoarewe" type="button">Qui&nbsp;som?</button>
+          <!-- </a> -->
+          <!-- <a href="aqui faltaria link a la web de contacte"> -->
+            <button id="contactbutton" type="button">Contacte</button>
+          <!-- </a> -->
+        </div>
+    </div>
+    </header>
+    <div id="main">
+      <article>
+        <div class="container">
+          <video controls autoplay muted>
+            <source src="./vid/video.mp4" type="video/mp4">
+          </video>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                  <img  class="imgcard" src="./img/placasolar.png" alt="">
+                  <h2>Plaques  </h2>
+                  <p>Ens encarregarem de posar-te la quantitat de plaques necessàries perquè la teva casa sigui el més autosuficient possible.</p>
+                </div>
+                <div class="card">
+                  <img class="imgcard" src="./img/Bateria-Litio_Fronius-1024x672-1.png" alt="">
+                  <h2>Bateries</h2>
+                  <p>Et posarem en nombre de bateries adients perquè mai hagis de dependre d'energia de tercers.</p>
+                </div>
+    
+                <div class="card">
+                  <img class="imgcard" src="./img/coche-electrico-estacion-de-carga-dibujo.png" alt="">
+                  <h2>Estació de Càrrega </h2>
+                  <p>Ens encarreguem de posar-te una estació de càrrega pel teu vehicle elèctric i així afegir-te el pla mobilitat.  </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="card">
+                  <img class="imgcard" src="./img/dueno-casa-feliz-acostado-sofa-relajandose-casa-disfrutando-ocio-aire-frio-acondicionador_74855-15441.png" alt="">
+                  <h2>Climatització</h2>
+                  <p>Ens encarregarem de que la vostre llar sigui confortable a l'estiu i a l'hivern.</p>
+                </div>
+
+                <div class="card">
+                  <img class="imgcard" src="./img/filtreaigua.png" alt="">
+                  <h2>Filtres d'aigua</h2>
+                  <p>Et posarem filtres d'aigua i aixi poguer ser autosuficient.</p>
+                </div>
+
+                <div class="card">
+                  <img class="imgcard" src="./img/papeleo.png" alt="">
+                  <h2>Gestió</h2>
+                  <p>Ens encarregarem de la documentacio perquè tinguis totes les ajudes sense preocuparte.</p>
+                </div>
+            </div>
+        </div>
+      </article>
+    </div>
+    <footer>
+      <div id="footercontainer">
+        <ul>
+            <li><a class="linkfo" href="./Quisom.html"><b>Qui Som</b></a></li>
+            <li><a class="linkfo" href="./Contacte.html"><b>Contacte</b></a></li>
+            <br>
+        </ul>
+        <hr>
+        <p id="copyright"><b>© 2023 Green's House</b></p>
       </div>
     </footer>
   </body>

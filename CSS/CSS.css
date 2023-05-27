@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
     font-family: monospace;
   }
   body {
@@ -18,7 +19,7 @@
   }
 
   header, footer {
-    background: black;
+    background: beige;
     flex: 1;
 
     border: 0.1em solid black;
@@ -64,7 +65,6 @@
     font-size: 150%;
     text-align: center;
     color: #000000;
-    text-shadow: 1px 1px 1px #000;
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
@@ -85,7 +85,6 @@
     font-size: 125%;
     text-align: center;
     color: #000000;
-    text-shadow: 1px 1px 1px #000;
     border-radius: 10%;
     background-color: rgb(255, 255, 255);
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
@@ -101,8 +100,7 @@
   article{
     display: flex;
     flex-direction: column;
-    background: blue;
-
+    background: beige;
     border: 0.1em solid black;
   }
 
@@ -125,11 +123,10 @@
 
   .row{
     flex:1;
-
     display: flex;
     flex-direction: row;
-
     border: 0.1em solid rgb(255, 255, 255);
+    max-height: 40%;
   }
 
   .card{
@@ -140,7 +137,7 @@
     margin: 1%;
     border-radius: 5%;
     padding: 2%;
-    max-height: 75%;
+    max-height: 100%;
   }
 
   /* Titol INFOS */
@@ -168,14 +165,44 @@
 
   /* footer */
   footer{
-    display: flex;
-    flex-direction: column;
     flex: 1;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    color: black;
+    max-height: 25%;
   }
-  
-  div#footercontainer ul li{
-    margin-top: 2px;
-}
+
+  #bottom{
+    display: flex;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  #bottomlinks, #bottomlocation, #bottomlegal{
+    flex-direction: column;
+    max-width: 25%;
+    margin: 0%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  #bottomlinks ul li{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }
+
+  #bottomlinks ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+  }
+
+  #bottomlinks ul li a:hover{
+    text-decoration: none;
+    color: rgb(3, 180, 3);
+    font-size: 125%;
+  }
+
+  #bottomlocation p{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }

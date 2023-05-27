@@ -1,5 +1,6 @@
 * {
-    box-sizing: border-box; 
+    box-sizing: border-box;
+    font-family: monospace;
   }
   body {
     display: flex;
@@ -43,7 +44,7 @@
 
   /* Aqui creo l'estai que hi ha entre el logo i els botons de navegacio */
   header #top #topspace{
-    width: 50%;
+    width: 60%;
   }
 
   /* Dono valor al div dels botons de navagacio */
@@ -60,7 +61,7 @@
     height: 35%;
     line-height: 2.5%;
     padding: 0 10%;
-    font-size: 100%;
+    font-size: 150%;
     text-align: center;
     color: #000000;
     text-shadow: 1px 1px 1px #000;
@@ -81,7 +82,7 @@
     height: 35%;
     line-height: 10%;
     padding: 0 10%;
-    font-size: 100%;
+    font-size: 125%;
     text-align: center;
     color: #000000;
     text-shadow: 1px 1px 1px #000;
@@ -145,11 +146,13 @@
   /* Titol INFOS */
   .card  h2{
     text-align: center;
+    font-size: 200%;
   }
 
   /* el text de las infos */
   .card  p{
     text-align: center;
+    font-size: 100%;
   }
 
   /* les imatges de las infos */

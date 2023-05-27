@@ -1,0 +1,126 @@
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(3, 180, 3); 
+}
+
+.contact_form{  
+  width: 45%; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;  
+  background-color: #fbfbfb; 
+  padding-left: 5%; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 80%; 
+  height: 20%; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: rgb(3, 180, 3); 
+  margin-top: 2.5%;  
+  padding-left: 2.5%;
+  margin-bottom: 2.5%; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 80%; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: rgb(3, 180, 3); 
+  margin-top: 2.5%;  
+  padding-left: 2.5%;
+  padding-top: 2.5%;
+  margin-bottom: 2.5%; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 20%; 
+  padding-left: 4%;
+  padding-right: 4%;   
+  margin-bottom: 5%; 
+  margin-top: 2%;   
+  text-transform: uppercase;
+  background-color: rgb(3, 180, 3); 
+  border-color: #000000; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 80%;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: rgb(3, 180, 3); 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 300%;  
+  text-align: letf; 
+  padding-bottom: 2.5%; 
+  color: rgb(3, 180, 3);
+}
+
+
+h3{
+  font-size: 120%; 
+  padding-bottom: 5%;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 100%; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}

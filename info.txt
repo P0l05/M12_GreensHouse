@@ -2,7 +2,6 @@ Adria: he canviat color perque es pugui veure millor, es poden canviar, pero s'h
 
 Falta:
 acabar quisom
-acabar contacte
 
 espai en blanc de serveis (ho he estat mirant i ns que pot ser, hi ha en el menu principal un espai en blanc entre els quadrats i el footer que no se com borrar)
 inici al footer

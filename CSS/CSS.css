@@ -24,7 +24,7 @@
   header, footer {
     background: black;
     flex: 1;
-
+    width: 100%;
     border: 0.1em solid black;
   }
 
@@ -36,7 +36,6 @@
     text-transform: uppercase;
     border-color: #000000;
     border-style: solid;
-    width: 80%;
     cursor: pointer;
   }
 
@@ -56,7 +55,7 @@
 
   /* Aqui creo l'estai que hi ha entre el logo i els botons de navegacio */
   header #top #topspace{
-    width: 60%;
+    width: 50%;
   }
 
   /* Dono valor al div dels botons de navagacio */
